@@ -20,6 +20,18 @@ const userSlice = createSlice({
       return [];
     },
   },
+
+  // If action is supposed to be handeled ny one reducer,use reducers.  
+   
+  // If action is supposed to be handeled by multiple reducers , use extraReducers.  
+         
+  // console.log(userSlice.actions.addUser());
+
+  extraReducers(builder) {
+    builder.addCase(userSlice.actions.clearAllUsers, () => {
+      return [];
+    });
+  },
 });
 
 // console.log(userSlice.actions);

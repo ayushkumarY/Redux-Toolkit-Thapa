@@ -20,12 +20,20 @@ const DeleteAllUser = () => {
     </Wrapper>
   );
 };
+
 export default DeleteAllUser;
 
 const Wrapper = styled.section`
   .clear-btn {
+    font-size: 2rem;
+    padding: 8px;
     text-transform: capitalize;
-    background-color: #db338a;
+    background: linear-gradient(135deg, #7f6de3 0%, #11aaf1 100%);
     margin-top: 2rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    opacity: 0.9;
   }
 `;

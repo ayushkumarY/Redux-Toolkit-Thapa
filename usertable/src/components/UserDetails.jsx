@@ -67,8 +67,8 @@ const Wrapper = styled.section`
   .delete-icon {
     font-size: 2.6rem;
     color: #f12711;
-    filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(255 0 0 / 0.2));
     cursor: pointer;
+    filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(255 0 0 / 0.2));
   }
   @media screen and (max-width: 998px) {
     .admin-subtitle {
